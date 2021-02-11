@@ -3,12 +3,12 @@ static const Block blocks[] = {
     // { ICON, COMMAND, UPDATE-INTERVAL, UPDATE-SIGNAL }
     {"", "echo ' | '$(curl ifconfig.me)", 0, 0},
     /* {"", "sb-music", 30, 8}, */
-    /* {"", "sb-volume", 0, 3}, */
     {"", "sb-kbselect",     0,      30},
     {"", "sb-mailbox",      1,      7},
     {"", "sb-pacpackages",  30,     6},
     {"", "sb-forecast",     240,    5},
     {"", "sb-moonphase",    240,    4},
+    {"", "sb-volume",       0,      13},
     {"", "sb-battery",      5,      2},
     {"", "sb-internet",     30,     9},
     {"", "sb-clock",        30,     1},

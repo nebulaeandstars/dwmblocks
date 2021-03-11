@@ -1,7 +1,7 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
     // { ICON, COMMAND, UPDATE-INTERVAL, UPDATE-SIGNAL }
-    {"", "echo ' | '$(curl ifconfig.me)", 0, 0},
+    {"", "echo ' | '$(ip route get 1.2.3.4 | awk '{print $7}')", 0, 0},
     /* {"", "sb-music", 30, 8}, */
     {"", "sb-kbselect",     0,      31},
     {"", "sb-mailbox",      1,      21},

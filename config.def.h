@@ -1,14 +1,14 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
     // { ICON, COMMAND, UPDATE-INTERVAL, UPDATE-SIGNAL }
-    {"", "echo ' | '$(ip route get 1.2.3.4 | awk '{print $7}')", 0, 0},
+    {"", "echo ' | '$(ip route get 1.2.3.4 | awk '{print $7}')", 300, 0},
     /* {"", "sb-music", 30, 8}, */
     {"", "sb-kbselect",     0,      31},
     {"", "sb-mailbox",      1,      21},
     {"", "sb-pacpackages",  30,     22},
-    {"", "sb-forecast",     240,    11},
-    {"", "sb-moonphase",    240,    12},
-    {"", "sb-volume",       0,      4},
+    {"", "sb-forecast",     300,    11},
+    {"", "sb-moonphase",    300,    12},
+    {"", "sb-volume",       1,      4},
     {"", "sb-battery",      5,      3},
     {"", "sb-internet",     10,     2},
     {"", "sb-clock",        10,     1},

@@ -3,15 +3,15 @@ static const Block blocks[] = {
     // { ICON, COMMAND, UPDATE-INTERVAL, UPDATE-SIGNAL }
     {"", "echo ' | '$(ip route get 1.2.3.4 | awk '{print $7}')", 300, 0},
     /* {"", "sb-music", 30, 8}, */
-    {"", "sb-kbselect",     0,      31},
-    {"", "sb-mailbox",      1,      21},
-    {"", "sb-pacpackages",  30,     22},
-    {"", "sb-forecast",     300,    11},
-    {"", "sb-moonphase",    300,    12},
-    {"", "sb-volume",       1,      4},
-    {"", "sb-battery",      5,      3},
-    {"", "sb-internet",     10,     2},
-    {"", "sb-clock",        10,     1},
+    {"", "sb-kbselect",     0,      14},
+    {"", "sb-mailbox",      1,      20},
+    {"", "sb-pacpackages",  30,     21},
+    {"", "sb-forecast",     300,    22},
+    {"", "sb-moonphase",    300,    23},
+    {"", "sb-volume",       1,      13},
+    {"", "sb-battery",      5,      12},
+    {"", "sb-internet",     10,     11},
+    {"", "sb-clock",        10,     10},
 };
 
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
